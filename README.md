@@ -19,7 +19,6 @@ This is a fork from cosima version of panan01, with SIS2 ice thermodynamics alte
 As you can see, this is a rather simplistic ghost flux application, as it applies a "geographically rectangular" longwave ghost flux. That means that if the prescribed flux is too big you might end up with a unphysical square ice border. So try to apply reasonably low ghost flux values
 
 
-
 # MOM6 Pan-Antarctic Model
 
 1/20° regional model south of 37°S. MOM6-SIS2 coupled configuration,
