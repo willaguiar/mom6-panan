@@ -66,3 +66,9 @@ FATAL_UNUSED_PARAMS = True
 
 ! from overrides:
 ADD_DIURNAL_SW = False
+
+!GHOST FLUX PARAMETERS - only to be used with the executable that allows ghost fluxes
+GHOST_LW_ICE_ON = True
+GHOST_LW_ICE = 10.5 ! Ghost flux intensity in [W m-2]
+GHOST_LW_J_SOUTH = 380
+GHOST_LW_J_NORTH = 50
